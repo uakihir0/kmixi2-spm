@@ -1,0 +1,8 @@
+framework module "kmixi2" {
+    umbrella header "kmixi2.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
